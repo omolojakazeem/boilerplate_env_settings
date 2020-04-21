@@ -1,5 +1,11 @@
 "# boilerplate_env_settings" 
 
+A. i. run pip install django-debug-toolbar
+  ii. run pip install django-heroku
+  
+B. Create static, media dir from same dir as your project
+
+
 To use in development:
 
 1. Check database settings in settings/dev.py, Default is sqlite3
