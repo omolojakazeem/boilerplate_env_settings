@@ -11,8 +11,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'l3um8o*cwrnrhc3lji=7=2&*q22r$()3bon=*l-rc1imi3#w$c'
+#SECRET_KEY = os.environ['SECRET_KEY']
 
+SECRET_KEY = 'l3um8o*cwrnrhc3lji=7=2&*q22r$()3bon=*l-rc1imi3#w$c'
 
 # Application definition
 
@@ -90,8 +91,3 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
-
-
-
-import django_heroku
-django_heroku.settings(locals())
