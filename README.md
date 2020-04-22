@@ -3,7 +3,7 @@
 A. i. run pip install django-debug-toolbar
   ii. run pip install django-heroku
   
-B. Create static, ststicfiles and media dir from same dir as your project
+B. Create static, staticfiles and media dir from same dir as your project
 
 
 To use in development:
